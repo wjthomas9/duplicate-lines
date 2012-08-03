@@ -13,8 +13,6 @@
 	<li>Add the key binding below to your Key Bindings - User file (and bind whatever command to it that you want)</li>
 </ol>
 
-<pre><code>
-{ "keys": ["super+shift+d"], "command": "duplicate_lines" }
-</code></pre>
+<pre><code>{ "keys": ["super+shift+d"], "command": "duplicate_lines" }</code></pre>
 
 <p>Enjoy.</p>
