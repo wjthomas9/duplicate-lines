@@ -9,7 +9,7 @@
 ##How to use
 
 <ol>
-	<li>Download the repo and place duplicate_line.py in your <strong>~/Library/Application Support/Sublime Text 2/Packages/User</strong> directory</li>
+	<li>Download the repo and place duplicate_lines.py (Not misspelled. It's called duplicate_line<strong>s</strong>) in your <strong>~/Library/Application Support/Sublime Text 2/Packages/User</strong> directory</li>
 	<li>Add the key binding below to your Key Bindings - User file (and bind whatever command to it that you want)</li>
 </ol>
 
