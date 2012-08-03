@@ -1,6 +1,6 @@
 #duplicate-lines
 
-###A modified version of the duplicate_line command for Sublime Text 2<p>
+<p><strong>A modified version of the duplicate_line command for Sublime Text 2 that allows you to duplicate multiple lines of text without worrying about the position of the cursor.</strong><p>
 
 <p>I wasn't happy with the way the duplicate_line command was workign in Sublime Text 2, so I made a modified version. This modified command will still duplicate a single line the same way. The behavior is slightly different, however, when duplicating *multiple* lines.</p>
 
