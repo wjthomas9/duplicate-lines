@@ -1,6 +1,6 @@
 #duplicate-lines
 
-<p>A modified version of the duplicate_line command for Sublime Text 2<p>
+###A modified version of the duplicate_line command for Sublime Text 2<p>
 
 <p>I wasn't happy with the way the duplicate_line command was workign in Sublime Text 2, so I made a modified version. This modified command will still duplicate a single line the same way. The behavior is slightly different, however, when duplicating *multiple* lines.</p>
 
@@ -9,7 +9,7 @@
 ##How to use
 
 <ol>
-	<li>Download the repo and place duplicate_line.py in your *~/Library/Application Support/Sublime Text 2/Packages/User* directory</li>
+	<li>Download the repo and place duplicate_line.py in your <strong>~/Library/Application Support/Sublime Text 2/Packages/User</strong> directory</li>
 	<li>Add the key binding below to your Key Bindings - User file (and bind whatever command to it that you want)</li>
 </ol>
 
