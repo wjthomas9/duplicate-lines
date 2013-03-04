@@ -18,4 +18,9 @@ How to use
 Get it with the Sublime Text 2 package manager
 ------------------
 
+Coming soon!!
+
+
+
+
 Enjoy.
