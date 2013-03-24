@@ -18,9 +18,7 @@ How to use
 Get it with the Sublime Text 2 package manager
 ------------------
 
-Coming soon!!
-
-
-
+1. Launch Sublime Text 2 Package manager
+2. Search for Duplicate Lines, and choose it to install it as a package.
 
 Enjoy.
