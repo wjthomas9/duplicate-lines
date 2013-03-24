@@ -1,4 +1,4 @@
-duplicate-lines
+Better Duplicate Lines command for Sublime Text 2
 ================
 
 **A modified version of the duplicate_line command for Sublime Text 2 that allows you to duplicate multiple lines of text without worrying about the position of the cursor. If you use your keyboard to highlight the text you want to duplicate, this modified command is for you. (Although, I think it's better even if you use a mouse to select text too.)**
