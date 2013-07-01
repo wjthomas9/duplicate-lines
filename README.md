@@ -8,7 +8,7 @@ I wasn't happy with the way the duplicate_line command was working in Sublime Te
 Rather than having to fully select the area to duplicate, you can now simply run your cursor selection over multiple lines, and this command will duplicate any lines that are even a **part** of the selection. So, if your cursor is in the middle of the line, it will still duplicate from the hard beginning of the first line in the selection to the end of the last line selected, and it will duplicate all of it directly below your selection. *(The original command literally duplicates from wherever your cursor is positioned to where it ends, which created extra keystrokes for me.)* This also means your selection no longer has to include empty space from the previous line to your selection in order to duplicate to a new line. It's a small difference, but if you prefer Eclipse-like behavior with this command, you'll like this.
 
 
-Get it with the Sublime Text 2 package manager
+Get it with the Sublime Text package manager
 ------------------
 
 Note: If you've previously installed my command using the method above, it's a good idea to undo that before installing via package manager. (Remove the duplicate_lines.py file from the directory in the **without package manager** directions below, and remove the key command from your **Key Bindings - User** file.
