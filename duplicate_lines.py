@@ -1,14 +1,8 @@
 import sublime, sublime_plugin
 
 class DuplicateLinesCommand(sublime_plugin.TextCommand):
-    def run(self, edit):
+    def run(self, edit, **args):
         for region in self.view.sel():
-            if region.empty():
-                line = self.view.line(region)
-                line_contents = self.view.substr(line) + '\n'
-                self.view.insert(edit, line.begin(), line_contents)
-            else:
-                line = self.view.line(region)
-                self.view.run_command("expand_selection", {"to": line.begin()})
-                region_contents = self.view.substr(self.view.line(region)) + '\n'
-                self.view.insert(edit, line.begin(), region_contents)
+            line = self.view.full_line(region)
+            line_contents = self.view.substr(line)
+            self.view.insert(edit, line.end() if args.get('up', False) else line.begin(), line_contents)
