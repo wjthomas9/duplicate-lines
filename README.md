@@ -26,6 +26,7 @@ Without Package Manager
 4. Edit your Key Bindings - User file (and bind whatever command to it that you want)
 
 ```{ "keys": ["super+shift+d"], "command": "duplicate_lines" }```
+
 ```{ "keys": ["super+shift+u"], "command": "duplicate_lines", "args": { "up": true } }```
 
 
