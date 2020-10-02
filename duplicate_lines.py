@@ -1,9 +1,15 @@
 import sublime, sublime_plugin
+from sublime import Region
 
 class DuplicateLinesCommand(sublime_plugin.TextCommand):
     def run(self, edit, up = False):
         last_caret_region = [(selection.begin(), selection.end()) for selection in self.view.sel()]
         for region in self.view.sel():
+            # if there's a selection, and ends with "\n" we don't want to also duplicate the next line
+            if not region.empty():
+                if "\n" in self.view.substr(region)[-1]:
+                    region = Region(region.begin(), region.end() - 1)
+
             line = self.view.line(region)
             line_contents = self.view.substr(line)
 
